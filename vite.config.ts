@@ -10,7 +10,6 @@ export default defineConfig({
   vite: {
     ssr: {
       noExternal: ["three", "@react-three/fiber"],
-      base: "/all",
     },
   },
 });

@@ -1,6 +1,5 @@
 {
   "name": "tanstack_start_ts",
-  "homepage": "https://azaanp0.github.io/all/",
   "private": true,
   "sideEffects": false,
   "type": "module",
@@ -10,9 +9,7 @@
     "build:dev": "vite build --mode development",
     "preview": "vite preview",
     "lint": "eslint .",
-    "format": "prettier --write .",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "format": "prettier --write ."
   },
   "dependencies": {
     "@cloudflare/vite-plugin": "^1.25.5",
@@ -57,7 +54,6 @@
     "embla-carousel-autoplay": "^8.6.0",
     "embla-carousel-react": "^8.6.0",
     "framer-motion": "^12.38.0",
-    "gh-pages": "^6.3.0",
     "gsap": "^3.15.0",
     "input-otp": "^1.4.2",
     "lucide-react": "^0.575.0",
